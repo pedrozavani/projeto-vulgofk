@@ -1,0 +1,112 @@
+/*Nome Das Fontes
+font-family: 'REM', sans-serif;
+font-family: 'Vina Sans', cursive;
+font-family: 'Bungee', cursive;
+*/
+:root{
+     --cor1:#31473E;
+     --cor2:#27473A;
+     --cor3:#6C9E8A;
+     --cor4:#87C7AD;
+     --cor5:#57E1AA;
+
+    --bungee:'Bungee', cursive;
+    --vina-sans:'Vina Sans', cursive;
+    --rem:'REM', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #688b7d;
+}
+
+header {
+    text-align: center;
+    background-color: #31473E;
+    color: rgb(212, 211, 211);
+}
+
+header > h1 {
+    font-family: var(--bungee);
+    text-shadow: 4px 3px 1px black;
+}
+
+nav{
+   background-color:rgb(177, 171, 171);
+}
+
+nav > a {
+    color: #31473E;
+    text-decoration: none;
+    padding: 10px;
+    font-family: var(--bungee);
+    margin-top: 0%;   
+}
+
+nav > a:hover {
+    background-color: #6C9E8A;
+    color: rgb(177, 171, 171);
+    padding: 0px 10px 0px;
+}
+
+main {
+    padding-top: 50px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 27px;
+    
+
+    max-width: 750px;
+    min-width: 280px;
+    margin: auto;
+}
+
+main  p {
+    font-family: var(--rem);
+    font-size: large;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+main picture{
+    align-items: center;
+    
+}
+
+h2 {
+    font-family: var(--bungee);
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    font-family: var(--rem);
+    text-align: center;
+    padding: 40px;
+}
+
+div.videos > iframe{
+    position: static;
+    left: 2px;
+    right: 52px;
+    width: 800px;
+    height: 400px;
+}
+
+footer {
+    background-color: #27473A;
+    color: rgb(206, 202, 202);
+    font-family: var(--bungee);
+    text-align: center;
+}
+
+.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
